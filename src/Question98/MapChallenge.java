@@ -44,7 +44,7 @@ public class MapChallenge {
         countryBox.put("Chile", "Santiago");
         countryBox.put("China", "Beijing");
         countryBox.put("Colombia", "Bogotá");
-        countryBox.put("Comoros", "Moroni");
+            countryBox.put("Comoros", "Moroni");
         countryBox.put("Congo", "Kinshasa");
         countryBox.put("Congo (Republic)", "Brazzaville");
         countryBox.put("Costa Rica", "San José");
