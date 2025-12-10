@@ -18,6 +18,8 @@ public class test {
         exe.submit(task4);
         exe.shutdown();
 
-        if(!exe.awaitTermination(6000, TimeUnit.SECONDS)){ exe.shutdownNow();}
+        if(!exe.awaitTermination(6, TimeUnit.SECONDS)){
+            System.out.println("Explicit Exit");
+            exe.shutdownNow();}
     }
 }
